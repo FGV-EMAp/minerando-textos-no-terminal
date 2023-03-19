@@ -1,2 +1,2 @@
-# minerando-textos-no-terminal
-Usando  sed e outras ferramentas do terminal linux para minerar textos
+# Minerando Textos no Terminal
+Usando  sed e outras ferramentas do terminal para minerar textos
