@@ -2,7 +2,7 @@
 Usando  sed e outras ferramentas do terminal para minerar textos.
 
 ## Descrição do exercício.
-Seu objetivo é resolver todas as tarefas usando apenas recursos do terminal, Bash no Linux e Gitbash no Windows. 
+Seu objetivo é resolver todas as tarefas usando apenas recursos do terminal, Bash no Linux e GitBash no Windows. 
 
 Coloque cada solução em um script shell separado, usando o seguinte padrão para nomear os arquivos: `ex_1.sh`.
 
@@ -32,3 +32,10 @@ dica: Para facilitar comece colocando cada palavra em uma linha separada:
 ```bash
 $ echo "gato sapato" | sed 's/ /\n/g'
 ```
+No código acima, a expressão regular `s/ /\n/g` substitui todos os espaços por quebras de linha.
+Dica: use o comando `sort` e o `uniq`.
+
+5. faça o mesmo que o exercício anterior, mas agora para todas as obras.
+6. Usando o resultado do exercício anterior, liste as palavras que aparecem mais de 1000 vezes. Dica considere o seguinte componente para o seu pipeline: `grep -E "^ *[[:digit:]]{4}"`; [Dicas de grep](https://github.com/fccoelho/introcomp/blob/main/conte%C3%BAdo/Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o/GREP.md).
+   
+
