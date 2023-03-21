@@ -20,7 +20,7 @@ Contos Fluminenses, 1870
 Historias da Meia-Noite, 1873
 ...
 ```
-4. Escolha uma obra, e liste as palavras distintas que aparecem nela, em ordem alfabética, seguidas do número de ocorrências de cada uma. O resultado deve ser algo como:
+4. Utilizando o conto `macn001.txt` , e liste as palavras distintas que aparecem nela, em ordem alfabética, seguidas do número de ocorrências de cada uma. O resultado deve ser algo como:
 
 ```
 6 romance,
