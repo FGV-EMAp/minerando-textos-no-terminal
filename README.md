@@ -28,14 +28,18 @@ Historias da Meia-Noite, 1873
 6 rosto.
 ...
 ```
-dica: Para facilitar comece colocando cada palavra em uma linha separada:
+Dica 1: Para facilitar comece colocando cada palavra em uma linha separada:
 ```bash
 $ echo "gato sapato" | sed 's/ /\n/g'
 ```
 No código acima, a expressão regular `s/ /\n/g` substitui todos os espaços por quebras de linha.
-Dica: use o comando `sort` e o `uniq`.
+
+Dica 2: use o comando `sort` e o `uniq`.
 
 5. faça o mesmo que o exercício anterior, mas agora para todas as obras.
-6. Usando o resultado do exercício anterior, liste as palavras que aparecem mais de 1000 vezes. Dica considere o seguinte componente para o seu pipeline: `grep -E "^ *[[:digit:]]{4}"`; [Dicas de grep](https://github.com/fccoelho/introcomp/blob/main/conte%C3%BAdo/Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o/GREP.md).
-   
+6. Usando o resultado do exercício anterior, liste as palavras que aparecem mais de 1000 vezes. 
 
+Dica:  considere o seguinte componente para o seu pipeline: `grep -E "^ *[[:digit:]]{4}"`; [Dicas de grep](https://github.com/fccoelho/introcomp/blob/main/conte%C3%BAdo/Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o/GREP.md).
+   
+## Entrega
+Coloque os scrits com as suas soluções e os arquivos de resposta no diretório `Solução` deste repositório. ao final, não esqueça de fazer um commit e um push.
