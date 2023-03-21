@@ -4,12 +4,12 @@ Usando  sed e outras ferramentas do terminal para minerar textos.
 ## Descrição do exercício.
 Seu objetivo é resolver todas as tarefas usando apenas recursos do terminal, Bash no Linux e GitBash no Windows. 
 
-Coloque cada solução em um script shell separado, usando o seguinte padrão para nomear os arquivos: `ex_1.sh`.
+Coloque cada solução em um **script shell separado**, usando o seguinte padrão para nomear os arquivos: `ex_1.sh`.
 
 Cada um destes scipts, quando executado, deve escrever a resposta em um arquivo chamado `resposta_ex_1`, `resposta_ex_2`, e assim por diante. 
 
 ### Exercícios
-Na pasta Dados está a obra completa de Machado de Assis na forma de vários arquivos de texto, distribuídos em vários sub-diretórios.
+Na pasta *Dados* está a obra completa de Machado de Assis na forma de vários arquivos de texto, distribuídos em vários sub-diretórios.
 
 1. Quantas palavras tem a obra completa?
 2. Liste os títulos das obras, em ordem alfabética.
