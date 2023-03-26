@@ -16,8 +16,8 @@ Na pasta *Dados* está a obra completa de Machado de Assis na forma de vários a
 3. Liste os contos (seus títulos), em ordem cronológica de publicação. o resultado deve ser algo como:
 
 ```
-Contos Fluminenses, 1870
-Historias da Meia-Noite, 1873
+Conto, Contos Fluminenses, 1870
+Conto, Historias da Meia-Noite, 1873
 ...
 ```
 4. Utilizando o conto `macn001.txt` , e liste as palavras distintas que aparecem nela, em ordem crescente de frequência, seguidas do número de ocorrências de cada uma. O resultado deve ser algo como:
@@ -32,7 +32,7 @@ Dica 1: Para facilitar comece colocando cada palavra em uma linha separada:
 ```bash
 $ echo "gato sapato" | sed 's/ /\n/g'
 ```
-No código acima, a expressão regular `s/ /\n/g` substitui todos os espaços por quebras de linha.
+No código acima, a expressão regular `s/ /\n/g` substitui todos os espaços por quebras de linha (`\n`).
 
 Dica 2: use o comando `sort` e o `uniq`.
 
